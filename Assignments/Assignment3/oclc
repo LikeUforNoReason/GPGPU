@@ -1,0 +1,1 @@
+/usr/bin/g++ -O -I /usr/local/cuda/include $1.cpp -L /usr/local/cuda/lib64/ -lX11 -lGL -lGLU -lglut -lGLEW -lm -lXmu -lOpenCL -o $1
